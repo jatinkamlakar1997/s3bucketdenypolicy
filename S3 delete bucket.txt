@@ -1,0 +1,19 @@
+{
+  "Id": "Policy1641107926669",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1641107924729",
+      "Action": [
+        "s3:DeleteBucket"
+      ],
+      "Effect": "Deny",
+      "Resource": "arn:aws:s3:::raje123455",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::986924227246:user/jatin"
+        ]
+      }
+    }
+  ]
+}
