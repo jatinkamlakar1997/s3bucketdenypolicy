@@ -9,7 +9,7 @@
       "Resource": "arn:aws:s3:::raje123455",
       "Principal": {
         "AWS": [
-          "arn:aws:iam::986924227246:user/jatin"
+          "arn:aws:iam::9jatin"
         ]
       }
     }
